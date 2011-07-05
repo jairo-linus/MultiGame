@@ -70,9 +70,14 @@
     </dependencies>
     <profiles>
         <profile>
-            <id>default</id>
+            <id>build></id>
             <activation>
                 <activeByDefault>true</activeByDefault>
+            </activation>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>Engine</module>
